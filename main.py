@@ -1,5 +1,6 @@
 import os
 from config import API_ID, API_HASH, BOT_TOKEN, AUTH_USERS
+AUTH_USERS = [int(chat) for chat in AUTH_USERS.split(",") if chat != ""]
 from pyrogram import Client, idle
 import asyncio, logging
 import tgcrypto
@@ -17,8 +18,6 @@ logging.basicConfig(
     ],
 )
 
-# Auth Users
-AUTH_USERS = [ int(chat) for chat in Config.AUTH_USERS.split(",") if chat != '']
 
 # Prefixes
 prefixes = ["/", "~", "?", "!"]
