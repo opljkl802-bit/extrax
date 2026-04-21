@@ -1,5 +1,5 @@
 import os
-from config import API_ID, API_HASH, BOT_TOKEN
+from config import API_ID, API_HASH, BOT_TOKEN, AUTH_USERS
 from pyrogram import Client, idle
 import asyncio, logging
 import tgcrypto
