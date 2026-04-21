@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram import Client as stark
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from main import LOGGER, prefixes, AUTH_USERS
-from config import Config
+from config import API_ID, API_HASH, BOT_TOKEN, AUTH_USERS
 import os
 import sys
 
