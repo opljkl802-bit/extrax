@@ -22,7 +22,7 @@
 
 
 import os
-from config import Config
+from vars import API_ID, API_HASH, BOT_TOKEN
 from pyrogram import Client, idle
 import asyncio, logging
 import tgcrypto
