@@ -25,7 +25,7 @@ prefixes = ["/", "~", "?", "!"]
 plugins = dict(root="plugins")
 
 bot = Client(
-    "StarkBot",
+    "tgot",
     bot_token=BOT_TOKEN,
     api_id=int(API_ID),   # API_ID must be integer
     api_hash=API_HASH,
