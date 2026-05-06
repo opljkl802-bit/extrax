@@ -1,3 +1,5 @@
+from pyrogram import Client, filters
+stark = Client.get_instance()
 from pyrogram import filters
 from pyrogram import Client as stark
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
